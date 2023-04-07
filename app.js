@@ -8,7 +8,7 @@ const app = express();
 
 // connect to mongodb & listen for requests
 // connect to mongodb 
-const dbURI = 'mongodb+srv://nikunj:nikunj123@blognode.a37ywx3.mongodb.net/node-tuts?retryWrites=true&w=majority';
+
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => app.listen(3000))
